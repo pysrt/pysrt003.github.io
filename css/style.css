@@ -1,0 +1,250 @@
+@import url(reset.css);
+
+body{
+    font-family: Arial, Verdana,Tohoma, sans-serif;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+/* header BEGIN*/
+
+
+#header{
+    padding: 20px 0 16px 0;
+    border-bottom:  1px solid #c0c0c0;
+    overflow: hidden;
+}
+a{
+    color:#fe9b00;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.active, a:hover{
+    color: #090909;
+}
+p{
+    margin: 8px 0;
+}
+h2{
+    font-size:18px;
+    font-weight: bold;
+    color:#090909;
+    text-transform: uppercase;
+    background-image: url(../images/strelka.png);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    background-position: 5px;
+    margin-bottom: 11px;
+}
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    color: #090909;
+    text-transform: uppercase;
+    background-image: url(../images/strel.png);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    background-position: 5px;
+    margin-bottom: 20px;
+    text-align: left
+    
+}
+
+
+#top-line{
+    background-color: #090909;
+    height: 16px;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+#logo{
+    width: 183px;
+    height: 100px;
+    float: left;
+}
+#menu{
+    float: right;
+    margin-top: 45px;
+}
+#menu ul li{
+    float: left;
+    margin-left: 63px;
+}
+#header-image{
+    width: 960px;
+    height: 380px;
+    background-image: url(../images/ris.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-bottom:  1px solid #c0c0c0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#black-box{
+    width: 443px;
+    height: 44px;
+    background-color: #090909;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #999898;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 35px;
+}
+#black-box p{
+    margin: 14px 12px;
+    line-height: 1;
+}
+#black-box a{
+    float: right;
+}
+#black-box a:hover{
+    color: #fe9b00;
+}
+
+/* header END*/
+
+/*content BEGIN*/
+#content{
+    margin-top: 20px;
+    border-bottom: 1px solid #c0c0c0;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.content-box{
+    width: 285px;
+    float: left;
+    margin-right: 52px;
+}
+#content-box1{
+    margin-right: 0;
+}
+.content-box h2{
+    font-size:18px;
+    font-weight: bold;
+    color:#090909;
+    text-transform: uppercase;
+    border-bottom: 5px solid #090909;
+    padding-bottom: 3px;
+    padding-left: 28px;
+    margin-bottom: 16px;
+    
+}
+.content-box ul li {
+    background: url(../images/galochka.png) 0 3px   no-repeat;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    line-height: :1.3;   
+}
+.cursiv{
+    margin-top: 20px;
+    font-style: italic;
+    color: #090909;
+}
+#content-box,#part{
+    margin-top: 24px;
+    border-bottom:  1px solid #c0c0c0;
+    padding-bottom: 40px;
+    overflow: hidden;
+    
+}
+.portfolio{
+    width: 215px;
+    height: 135px;
+    float: left;
+    margin-right: 33px;
+    position: relative;
+}
+#partf{
+    margin-right: 0;
+}
+.portfolio a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #090909;
+    background-color: #fe9b00;
+    display: block;
+    padding: 4px 10px;
+    line-height: 1;
+}
+#block{
+    width: 658px;
+    float: left;
+}
+#social{
+    width: 220px;
+    float: right;
+}
+#botten-row{
+    margin-top: 20px;
+    overflow: hidden;
+}
+#social ul li{
+    float: left;
+    margin-right: 13px;
+}
+
+/* header BEGIN*/
+#foter-con{
+    background-color:#e2e2e2;
+    padding: 32px 0 37px 0;
+    position: relative;
+}
+#foter-info{
+    width: 960px;
+    margin: 0 auto; 
+    color:#5d5d5d;
+}
+#foter-info a{
+    color:#5d5d5d;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+#foter-info a:hover{
+    text-decoration: underline;
+    
+} 
+#foter-info ul{
+    overflow: hidden;
+}
+#foter-info ul li{
+    float: left;
+    padding: 0 7px;
+    border-left: 1px solid #5d5d5d;
+    line-height: 1;
+}
+#foter-info ul li:first-child{
+    padding-left: 0;
+    border: none;
+}
+#foter-info p{
+    color:#5d5d5d;
+    margin: 5px 0 0 0 ;
+}
+#clear{
+    clear: both;
+}
+#foter-icon{
+    width: 119px;
+    height: 64px;
+    background-image: url(../images/logo2.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 19px;
+    right:320px; 
+}
+#footer-bottom{
+    width: 960px;
+}
